@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  background-color: rgb(233, 233, 233);
+}
+.main-container {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+}
+.college-name {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  margin-top: 20px;
+}
+hr {
+  margin: 0;
+  padding: 0;
+}
+h1,
+h2 {
+  font-size: 2vw;
+  font-family: "Playfair Display", serif;
+}
+.subject {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.subjects-input {
+  display: flex;
+  flex-direction: column;
+}
+
+.result {
+  height: 80vh;
+  width: 20%;
+  margin: 50px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.result > div {
+  background-color: aquamarine;
+  height: 25vw;
+  width: 25vw;
+  border-radius: 5%;
+}
+
+h2 {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.result p {
+  padding: 10px;
+}
